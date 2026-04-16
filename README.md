@@ -57,7 +57,11 @@ We recommend the following to ensure you clone with the required submodule
 
 Example: git for windows
 ```bash
-git clone https://github.com/AtalaSupport/DemoGallery_Desktop_PhotoEffectsDemo_CS_x64.git OcrDiagnosticDemo
+git clone https://github.com/AtalaSupport/DemoGallery_Desktop_PhotoEffectsDemo_CS_x64.git PhotoEffectsDemo
+cd PhotoEffectsDemo --recursive
+git submodule init
+git submodule update
+git pull
 ```
 
 

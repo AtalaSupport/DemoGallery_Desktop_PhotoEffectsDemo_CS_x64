@@ -9,6 +9,7 @@ using System.IO;
 using Atalasoft.Imaging;
 using Atalasoft.Imaging.Codec;
 using Atalasoft.Imaging.ImageProcessing.Effects;
+using WinDemoHelperMethods;
 
 namespace PhotoEffectsDemo
 {
@@ -57,7 +58,7 @@ namespace PhotoEffectsDemo
 			// Required for Windows Form Designer support
 			//
 			InitializeComponent();
-            AtalaDemos.HelperMethods.PopulateDecoders(RegisteredDecoders.Decoders);
+            HelperMethods.PopulateDecoders(RegisteredDecoders.Decoders);
 
 			this.menuEffects.Enabled = false;
 			this.menuFileSaveAs.Enabled = false;
@@ -398,7 +399,7 @@ namespace PhotoEffectsDemo
 		private void menuFileOpen_Click(object sender, System.EventArgs e)
 		{
 			OpenFileDialog dlg = new OpenFileDialog();
-            dlg.Filter = AtalaDemos.HelperMethods.CreateDialogFilter(true);
+            dlg.Filter = HelperMethods.CreateDialogFilter(true);
 			dlg.FileName = this._fileName;
 
 			// try to locate images folder

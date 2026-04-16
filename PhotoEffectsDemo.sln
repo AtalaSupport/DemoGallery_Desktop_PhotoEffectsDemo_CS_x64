@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDemoHelperMethods", "WinDemoHelperMethods\WinDemoHelperMethods.csproj", "{5ABEB07A-C0B6-4B17-89A7-23761594015A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -19,6 +21,10 @@ Global
 		{48827F78-7676-440E-93C5-A3A54529DFAB}.Debug|x64.Build.0 = Debug|x64
 		{48827F78-7676-440E-93C5-A3A54529DFAB}.Release|x64.ActiveCfg = Release|x64
 		{48827F78-7676-440E-93C5-A3A54529DFAB}.Release|x64.Build.0 = Release|x64
+		{5ABEB07A-C0B6-4B17-89A7-23761594015A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5ABEB07A-C0B6-4B17-89A7-23761594015A}.Debug|x64.Build.0 = Debug|Any CPU
+		{5ABEB07A-C0B6-4B17-89A7-23761594015A}.Release|x64.ActiveCfg = Release|Any CPU
+		{5ABEB07A-C0B6-4B17-89A7-23761594015A}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
